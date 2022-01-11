@@ -5,11 +5,11 @@ import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
-import org.locationtech.jts.geom.Point;
+//import org.locationtech.jts.geom.Point;
 
-public class PointToJsonSerializer extends JsonSerializer<Point> {
+public class PointToJsonSerializer {//extends JsonSerializer<Point> {
 
-    @Override
+  /*  @Override
     public void serialize(Point value, JsonGenerator jgen,
             SerializerProvider provider) throws IOException,
             JsonProcessingException {
@@ -27,5 +27,5 @@ public class PointToJsonSerializer extends JsonSerializer<Point> {
 
         jgen.writeString(jsonValue);
     }
-
+*/
 }

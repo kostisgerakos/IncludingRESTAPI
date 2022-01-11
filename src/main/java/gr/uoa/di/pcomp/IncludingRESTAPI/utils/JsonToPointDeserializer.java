@@ -4,13 +4,13 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
-import org.locationtech.jts.geom.Coordinate;
+/*import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.Point;
-import org.locationtech.jts.geom.PrecisionModel;
+import org.locationtech.jts.geom.PrecisionModel;*/
 
-public class JsonToPointDeserializer extends JsonDeserializer<Point> {
-
+public class JsonToPointDeserializer {//extends JsonDeserializer<Point> {
+/*
     private final static GeometryFactory geometryFactory = new GeometryFactory(new PrecisionModel(), 26910); 
 
     @Override
@@ -32,6 +32,6 @@ public class JsonToPointDeserializer extends JsonDeserializer<Point> {
         catch(Exception e){
             return null;
         }
-    }
+    }*/
 
 }
